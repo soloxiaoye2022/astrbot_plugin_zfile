@@ -5,7 +5,7 @@
 
 本插件依托于 [cuckoo711/zfile_sdk](https://github.com/cuckoo711/zfile_sdk) 项目所提供的 ZFile API 封装，向其开发者表示特别感谢。
 此项目不能单独使用须搭建 [zfile-dev/zfile](https://github.com/zfile-dev/zfile) 部署此项目配合使用。
-token获取教程请看（https://api.zfile.vip/）
+token获取教程请看https://api.zfile.vip/
 
 ## 🌟 插件功能
 
