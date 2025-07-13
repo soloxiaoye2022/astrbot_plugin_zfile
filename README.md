@@ -4,6 +4,8 @@
 基于 [ZFile](https://github.com/zfile-dev/zfile) 项目开发的 AstrBot 插件，用于通过群聊指令远程管理文件，支持文件列表查看、上传下载、短链生成等操作。
 
 本插件依托于 [cuckoo711/zfile_sdk](https://github.com/cuckoo711/zfile_sdk) 项目所提供的 ZFile API 封装，向其开发者表示特别感谢。
+此项目不能单独使用须搭建 [zfile-dev/zfile](https://github.com/zfile-dev/zfile) 部署此项目配合使用。
+token获取教程请看（https://api.zfile.vip/）
 
 ## 🌟 插件功能
 
