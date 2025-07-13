@@ -9,8 +9,8 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
 from ZfileSDK.utils import ApiClient
-from ZfileSDK.front import *
-from ZfileSDK.admin import *
+from ZfileSDK.front import *  # noqa: F403
+from ZfileSDK.admin import *  # noqa: F403
 from astrbot.core.message.components import Reply, File, Image, Video, BaseMessageComponent
 
 
@@ -28,7 +28,7 @@ class ZFilePlugin(Star):
         self.perm = config['permissions']
 
     async def initialize(self):
-        user_interface = UserInterface(self.zf)
+        user_interface = UserInterface(self.zf)  # noqa: F405
         check = user_interface.login_check()
         logger.info("ZFile 插件就绪：" + check.data.to_str())
         return check.data.is_login
